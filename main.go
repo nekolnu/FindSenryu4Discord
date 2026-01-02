@@ -9,13 +9,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/makotia/FindSenryu4Discord/db"
-	"github.com/makotia/FindSenryu4Discord/model"
-	"github.com/makotia/FindSenryu4Discord/service"
+	"github.com/nekolnu/FindSenryu4Discord/db"
+	"github.com/nekolnu/FindSenryu4Discord/model"
+	"github.com/nekolnu/FindSenryu4Discord/service"
 
-	"github.com/bwmarrin/discordgo"
-	"github.com/makotia/FindSenryu4Discord/config"
-	"github.com/makotia/go-haiku"
+	"github.com/nekolnu/discordgo"
+	"github.com/nekolnu/FindSenryu4Discord/config"
+	"github.com/nekolnu/config"
 )
 
 func main() {
