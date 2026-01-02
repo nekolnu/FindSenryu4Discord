@@ -1,5 +1,5 @@
 # FindSenryu4Discord
-
+https://github.com/0x307e 様のコピーです
 <p align="center">
   <img src="./.github/img/haiku.png" width="200" /><br />
   Discordで川柳を検出します
