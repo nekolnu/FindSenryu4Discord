@@ -1,4 +1,5 @@
-import "github.com/nekolnu/FindSenryu4Discord/db"
+module github.com/makotia/FindSenryu4Discord
 
 go 1.14
+
 
