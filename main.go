@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"https://github.com/nekolnu/FindSenryu4Discord/tree/masterdb"
-	"https://github.com/nekolnu/FindSenryu4Discord/tree/master/model"
-	"https://github.com/nekolnu/FindSenryu4Discord/tree/master/service"
+	"github.com/nekolnu/FindSenryu4Discord/tree/masterdb"
+	"github.com/nekolnu/FindSenryu4Discord/tree/master/model"
+	"github.com/nekolnu/FindSenryu4Discord/tree/master/service"
 
 	"github.com/nekolnu/discordgo"
 	"github.com/nekolnu/FindSenryu4Discord/config"
@@ -142,8 +142,8 @@ func handleRanking(m *discordgo.MessageCreate, s *discordgo.Session) {
 			Title:     "サーバー内ランキング",
 			Timestamp: time.Now().Format(time.RFC3339),
 			Footer: &discordgo.MessageEmbedFooter{
-				Text:    "This bot was made by makotia.",
-				IconURL: "https://github.com/makotia.png",
+				Text:    "This bot was made by nekolnu.",
+				IconURL: "https://github.com/nekolnu.png",
 			},
 			Thumbnail: &discordgo.MessageEmbedThumbnail{
 				URL: s.State.User.AvatarURL(""),
