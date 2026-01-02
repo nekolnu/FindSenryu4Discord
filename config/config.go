@@ -1,6 +1,10 @@
 package config
 
-import "github.com/BurntSushi/toml"
+import (
+    "github.com/BurntSushi/toml"
+    "log"
+)
+
 
 
 var conf *Config
