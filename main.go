@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/nekolnu/FindSenryu4Discord/db"
-	"github.com/nekolnu/FindSenryu4Discord/model"
-	"github.com/nekolnu/FindSenryu4Discord/service"
+	"https://github.com/nekolnu/FindSenryu4Discord/tree/masterdb"
+	"https://github.com/nekolnu/FindSenryu4Discord/tree/master/model"
+	"https://github.com/nekolnu/FindSenryu4Discord/tree/master/service"
 
 	"github.com/nekolnu/discordgo"
 	"github.com/nekolnu/FindSenryu4Discord/config"
